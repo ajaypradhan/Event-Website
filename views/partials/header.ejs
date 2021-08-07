@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <!-- <link rel="stylesheet" href="public/css/style.css" /> -->
+        <title>Event Listing</title>
+    </head>
+    <body>
+        <div class="container flex h-full w-full">
+            <!-- navbar -->
+            <div class="nav flex bg-blue-500 p-4 px-10 w-full items-center">
+                <div class="logo rounded cursor-pointer flex-grow">
+                    <img class="h-10" src="/images/logo.png" alt="" />
+                </div>
+                <div class="links text-white flex">
+                    <li class="list-none mr-5 cursor-pointer hover:underline">
+                        Home
+                    </li>
+                    <li class="list-none mr-5 cursor-pointer">About</li>
+                    <li class="list-none mr-5 cursor-pointer">Contact</li>
+                    <li class="list-none mr-5 cursor-pointer">Events</li>
+                </div>
+                <input
+                    class="rounded px-2 h-10 focus:outline-none"
+                    type="text"
+                    placeholder="search..."
+                />
+            </div>
+        </div>
